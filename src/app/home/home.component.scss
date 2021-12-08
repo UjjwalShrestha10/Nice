@@ -1,0 +1,105 @@
+*{
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.first{
+    height: 100vh;
+    background-size: cover;
+    background-position:  center;
+    text-align: center;
+    margin: auto;
+    h1{
+        font-size: 80px;
+        padding-top: 200px;
+        margin-bottom: 100px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+}
+
+.searchbar{
+    font-weight: 700;
+}
+
+.facility{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    background-color: #ebe9eb;
+}
+
+
+
+.aboutus{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    .info{
+        h1{
+            font-size: 30px;
+            font-family: sans-serif;
+
+        }
+    }
+    
+}
+.location{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    .info{
+        h1{
+            font-size: 30px;
+            font-family: sans-serif;
+
+        }
+    }
+    
+}
+
+
+
+.h1{
+    position: relative;
+}
+
+.h1::after{
+    content: "";
+    width: 8%;
+    position: absolute;
+    height: 4px;
+    bottom: -40px; 
+    margin: 0 ;
+	left: 0;
+    right: 0;
+	 background: aqua;
+}
+
+
+
+.hostels{
+    height:100vh;
+    width:100%;
+    background-color: #ebe9eb;
+    text-align: center;
+    h1{
+        font-size: 30px;
+    }
+    .h1::after{
+        margin: auto;
+        width: 5%;
+    }
+}
+
+mat-grid-tile {
+    background: rgb(20, 230, 48);
+}
+.hostel {
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }

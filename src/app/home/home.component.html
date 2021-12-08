@@ -1,0 +1,140 @@
+  <div>
+    <div class="first" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(assets/images/mountain1.jpg);">
+      <h1>Find Hostels all around Nepal  </h1>
+      <hr class="line" style="height: 5px; width: 30px; background-color: black;">
+      <mat-card style="width: 50%;margin: auto; margin-top: 100px;">
+      <div class="searchbar"style="display: flex; align-items:center; justify-content: center;">
+        <mat-form-field appearance="fill">
+          <label>Select Location</label>
+          <select style="padding: 10px;">
+            <option value="1">Kathmandu</option>
+            <option value="2">Pokhara</option>
+            <option value="3">Chitwan</option>
+            <option value="4">Itahari</option>
+          </select>
+        </mat-form-field>
+  
+  
+          <mat-form-field hintLabel="Max 10 characters" appearance="fill">
+            <label>Minimum Price</label>
+            <input matInput #input maxlength="8" placeholder="Ex. 5000" style="width:100px;height: 30px;">
+          </mat-form-field>
+          <mat-form-field hintLabel="Max 10 characters" appearance="fill">
+            <label>Maximum Price</label>
+            <input matInput #input maxlength="8" placeholder="Ex. 5000" style="width:100px; height: 30px;">
+          </mat-form-field>
+          <section>
+            <button style="padding: 10px;background-color:grey; font-weight: bolder;">SEARCH NOW</button>
+          </section>
+        </div>
+        </mat-card>
+  </div>
+  <div class="facility">
+  <mat-grid-list cols="4" rowHeight="2:1">
+    <mat-grid-tile>1</mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+  </mat-grid-list>
+  </div>
+  
+  <div class="aboutus">
+    <div class="info" style="height: 60vh; width: 50%;">
+      <div style="margin:100px 200px 100px 100px">
+      <h1 class="h1">About Us</h1>
+      <section style="padding-top:50px; padding-bottom: 100px;">
+      <p style="font-size: 20px;">Maecenas feugiat mattis ipsum, vitae semper massa porttitor sit amet. Nulla mattis, urna et posuere ornare, neque leo dapibus ante, nec dignissim massa felis ad nulla donec porttitor nulla et tristique dignissim.</p>
+      </section>
+      <a mat-raised-button style="background-color: rgb(54, 172, 250); padding: 10px 20px; color: white;" href="https://www.google.com/" target="_blank">Learn More</a>
+      </div>
+    </div>
+    <div style="height: 60vh; width:50%;">
+      <img style="height: 60vh; width: 100%;" src="assets/images/mountain1.jpg">
+    </div>
+  </div>
+
+  <div class="location">
+    <div style="height: 60vh; width:50%;">
+      <img style="height: 60vh; width: 100%;" src="assets/images/mountain1.jpg">
+    </div>
+    <div class="info" style="height: 60vh; width: 50%;">
+      <div style="margin:100px 200px 100px 100px">
+      <h1 class="h1">Location</h1>
+      <section style="padding-top:50px; padding-bottom: 100px;">
+      <p style="font-size: 20px;">Maecenas feugiat mattis ipsum, vitae semper massa porttitor sit amet. Nulla mattis, urna et posuere ornare, neque leo dapibus ante, nec dignissim massa felis ad nulla donec porttitor nulla et tristique dignissim.</p>
+      </section>
+      <a mat-raised-button style="background-color: rgb(54, 172, 250); padding: 10px 20px; color: white;" href="https://www.google.com/" target="_blank">Learn More</a>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="hostels">
+    <div style="padding-top: 100px;">
+      <h1 class="h1">Our Hostels</h1>
+      <section style="padding-top:50px;width: 40%;">
+        <p style="font-size: 20px;">Maecenas feugiat mattis ipsum, vitae semper massa porttitor sit amet. Nulla mattis, urna et posuere ornare, neque leo dapibus ante, nec dignissim massa felis ad nulla donec porttitor nulla et tristique dignissim.</p>
+        </section>
+      <div style="width: 60%; display: flex;margin-top: 30px;">
+        <mat-card class="hostel">
+          <img mat-card-image src="assets/images/hostel1.jpg" alt="Photo of a Shiba Inu">
+          <mat-card-header>
+            <mat-card-title style="padding: 20px;">Bright Hostel</mat-card-title>
+            <mat-card-subtitle>Location:Baneshowor</mat-card-subtitle>
+            <mat-card-subtitle>Room Type: 3 people</mat-card-subtitle>
+            <mat-card-subtitle>Price: Rs 3500</mat-card-subtitle>
+
+          </mat-card-header>
+          
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <a mat-raised-button style="background-color: rgb(54, 172, 250); padding: 10px 20px; color: white;float: right;" href="https://www.google.com/" target="_blank">Learn More</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="hostel">
+          <img mat-card-image src="assets/images/hostel1.jpg" alt="Photo of a Shiba Inu">
+          <mat-card-header>
+            <mat-card-title style="padding: 20px;">Bright Hostel</mat-card-title>
+            <mat-card-subtitle>Location:Baneshowor</mat-card-subtitle>
+            <mat-card-subtitle>Room Type: 3 people</mat-card-subtitle>
+            <mat-card-subtitle>Price: Rs 3500</mat-card-subtitle>
+
+          </mat-card-header>
+          
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <a mat-raised-button style="background-color: rgb(54, 172, 250); padding: 10px 20px; color: white;float: right;" href="https://www.google.com/" target="_blank">Learn More</a>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="hostel">
+          <img mat-card-image src="assets/images/hostel1.jpg" alt="Photo of a Shiba Inu">
+          <mat-card-header>
+            <mat-card-title style="padding: 20px;">Bright Hostel</mat-card-title>
+            <mat-card-subtitle>Location:Baneshowor</mat-card-subtitle>
+            <mat-card-subtitle>Room Type: 3 people</mat-card-subtitle>
+            <mat-card-subtitle>Price: Rs 3500</mat-card-subtitle>
+
+          </mat-card-header>
+          
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <a mat-raised-button style="background-color: rgb(54, 172, 250); padding: 10px 20px; color: white;float: right;" href="https://www.google.com/" target="_blank">Learn More</a>
+          </mat-card-actions>
+        </mat-card>
+        
+      </div>        
+    </div>
+   
+
+  </div>
+
+  <div>
+    <mat-icon>facebook</mat-icon>
+  </div>
+
+
+</div>
+
+
+
